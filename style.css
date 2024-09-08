@@ -97,6 +97,7 @@ body {
 .contact {
     padding-left: 20vw;
     padding-right: 20vw;
+
 }
 
 .email-text {
@@ -109,6 +110,16 @@ body {
     to {
         text-shadow: 1px 1px 2px red, 0 0 1em #C50202, 0 0 0.2em #C50202;
     }
+}
+
+.whatsapp {
+    margin-top: 1rem;
+    height: 45px;
+    width: 195px;
+    border-radius: 15px;
+    background-image: url('./images/WhatsAppButtonGreenSmall.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .thank-you {
