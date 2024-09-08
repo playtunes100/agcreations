@@ -1,15 +1,4 @@
-@font-face {
-    font-family: OPTIGaucho;
-    src: url("./fonts/OPTIGaucho.otf");
-}
-@font-face {
-    font-family: AnginSenja;
-    src: url("./fonts/Angin-Senja.otf");
-}
-@font-face {
-    font-family: AddJazz;
-    src: url("./fonts/ADD-JAZZ.otf");
-}
+
 
 body {
     height: 100vh;
