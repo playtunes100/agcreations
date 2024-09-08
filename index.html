@@ -38,16 +38,16 @@
                     <a class="nav-link" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Prices</a>
+                    <a class="nav-link" href="#prices">Prices</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -66,8 +66,8 @@
             <span class="slogan">"Designing identities
             <br>that last"</span>
           </div>
-        <div class="services">
-            <h2 class="services-heading">Our Services</h2>
+        <div id="services" class="services">
+            <h2 class="headings">Our Services</h2>
             <div class="services-content">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
@@ -103,7 +103,7 @@
                                   Business Card, letterhead and Email signature.</p>
                             </div>
                             <div class="card-footer">
-                              <p class="text-dark fw-bolder">R1250</p>
+                              <p id="prices" class="text-dark fw-bolder">R1250</p>
                             </div>
                           </div>
                     </div>
@@ -124,10 +124,67 @@
                   </div>
             </div>
         </div>
+        <br />
+        <div id="about" class="about">
+            <h2 class="headings">About Us</h2>
+            <div class="card about-content bg-transparent text-center">
+                <p class="card-text about-text">We are a group of creatives that can design digital products your business needs to succeed. 
+                    We have the skills, knowledge, and dedication to create aesthetically beautiful layouts that also provide an exceptional user experience. 
+                    Make IT Simple is a fully customised, bespoke software company that takes the needs of each individual client into account before performing any web development tasks.
+                </p>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="contact" class="contact">
+            <div class="headings">Contact us</div>
+            <div class="contact-content">
+            <div class="email-text text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+              </svg> example@agcreations.co.za</div>
+                
+            <form action="https://formsubmit.co/marcelmashaba@gmail.com" class="row g-3 needs-validation" method="POST">
+                    <div class="col-md-6">
+                      <label for="firstname" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="firstname" value="" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="lastname" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="lastname" value="" required>
+                    </div>
+                    <div class="col-mb-4">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="username@server.com" aria-label="Email" id="email" required>
+                      </div>
+                    <div class="col-mb-4">
+                        <label for="Messagetextarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="Messagetextarea" placeholder="How can we help your business succees?" required></textarea>
+                      </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                      <button class="btn btn-danger" type="reset">Reset</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
 
     </main>
+    <br>
     <footer>
-
+        <p class="text-center">Copyright © 2024 Africa Global creations. All Rights Reserved.</p>
     </footer>   
 </body>
 </html>
