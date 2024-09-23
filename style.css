@@ -10,6 +10,25 @@ body {
     cursor: url("./images/cursor.png"), url("./images/cursor.svg"), url("./images/cursor.cur"), auto;
 }
 
+.logo-text {
+    font-family: 'OPTIGAUCHO', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-subtext {
+    font-family: 'OPTIGAUCHO', 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    color: white;
+    background-color: #C50202;
+    
+}
+
 .description {
     padding-left: 20vw;
     padding-right: 20vw;
